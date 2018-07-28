@@ -1,0 +1,316 @@
+/*中间分类模块*/
+.grid{
+	height: 480px;
+}
+.grid-col1{
+	width: 190px;
+	height: 100%;
+	background-color: #fff;
+	color: #626262;
+	font-size: 12px;
+	position: relative;
+}
+.ad{
+	width: 250px;
+	height: 480px;
+	position: absolute;
+	left: -255px;
+}
+.ad-left{
+	cursor: pointer;
+}
+.ad-right{
+	position: absolute;
+	top: 0;
+	left: 255px;
+	z-index: 999;
+	height: 480px;
+	width: 793px;
+}
+.grid-col1 a{
+	color: #626262;
+	font-size: 14px;
+	margin: 0 3px;
+}
+.grid-col1 a:hover{
+	color: #f10215;
+}
+.grid-col1 ul{
+	padding: 15px 0;
+}
+.grid-col1 ul li{
+	padding-left: 18px;
+	height: 27px;
+	line-height: 27px;
+}
+.grid-col1 ul li:hover{
+	background-color: #d9d9d9;
+}
+/*列表扩展*/
+.li-expand{
+	position: absolute;
+	top: 0px;
+	left: -10px;
+	z-index: 998;
+	height: 439px;
+	width: 919px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow:  5px 5px 10px  rgba(0,0,0,.1);
+	padding: 40px 40px 0 40px;
+}
+.li-expand-top{
+	height: 59px;
+	width: 600px;
+}
+.li-expand-top a{
+	margin-right: 10px;
+	font-size: 14px;
+	padding: 7px 15px;
+	background-color: #333;
+	color: #fff;
+}
+.list{
+	overflow: auto;
+}
+.list ul{
+	float: left;
+	padding: 5px 0;
+}
+.list ul li{
+	font-size: 13px;
+	float: left;
+	margin-right: 2px;
+	border-left: 1px solid #ccc;
+	padding: 5px 10px;
+	color: #626262;
+}
+.list ul a li:hover{
+	color: #F10215;
+}
+.list .top{
+	font-weight: 700;
+	width: 70px;
+	border: none;
+	text-align: right;
+	padding-right: 15px;
+	
+}
+.li-expand-right .div1{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.li-expand-right .div2{
+	position: absolute;
+	top: 174px;
+	right: 20px;
+}
+.li-expand-right .div3{
+	position: absolute;
+	top: 328px;
+	right: 20px;
+}
+.li-expand-right a{
+	margin-bottom: 25px;
+}
+.li-expand-right img{
+	height: 117px;
+	width: 151px;
+}
+/*banner部分*/
+.grid-col2{
+	position: relative;
+	width: 790px;
+	height: 100%;
+	margin-left: 10px;
+}
+.grid-col2-r img{
+	display: block;		/*取消图片间的间隙*/
+	margin-bottom: 15px;
+}
+/*轮播图*/
+.grid-col2-l{
+	height: 480px;
+	width: 593px;
+	position:relative;
+	overflow:hidden;
+}
+.grid-col2-l ul{
+	position:relative;
+	width:20000px;
+}
+.grid-col2-l ul li{
+	float:left;
+	position:relative;
+}
+/*左右轮播箭头*/
+.arrow-l,
+.arrow-r{
+	position: absolute;
+	top: 220px;
+	width: 24px;
+	height: 40px; 
+	background-color: rgba(0,0,0,.2);
+	text-align: center;
+	line-height: 38px;
+	font-size: 20px;
+	color: hsla(0,0%,100%,.4);
+	cursor: pointer;
+}
+.arrow-r{
+	right: 0px;
+}
+.circle{
+	position: absolute;
+	top: 450px;
+	left: 300px;
+	width: 168px;
+	height: 20px;
+	background: hsla(0,0%,100%,.4);
+	transform: translateX(-50%);
+	bottom: 20px;
+	border-radius: 10px;
+	padding-left: 7px;
+}
+.circle span{
+	position: relative;
+	height: 12px;
+	width: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin: 4px;
+	cursor: pointer;	/*鼠标经过出现手*/
+}
+.circle .active{
+	background-color: #F10215;
+}
+.grid-col2-l .circle li:hover{
+	color: #F10215;
+}
+
+/*右边模块*/
+.grid-col3{
+	width: 190px;
+	height: 100%;
+}
+/*登录模块*/
+.login{
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	background-color: #fff;
+}
+.login-t{
+	width: 95px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 12px;
+	white-space: nowrap;	/*强制一行内显示*/
+	overflow: hidden;	/*隐藏溢出*/
+	text-overflow: ellipsis;	/*超出部分为省略号*/
+	color: #666;
+	padding-left: 60px ;	/*用padding把文字向右挤*/
+	position: relative;
+}
+.login a{
+	color: #666;
+}
+.login a:hover{
+	color: #F10215;
+}
+.user-info{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+.user-info img{
+	width: 100%;
+	border-radius: 50%;
+}
+.login-b a{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border: 2px solid #F10215;
+	margin-right: 3px;
+	color: #F10215;
+}
+.login-b a:hover{
+	background-color: #F10215;
+	color: #fff;
+}
+/*新闻公告模块*/
+.news{
+	height: 155px;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 13px 0;
+	box-sizing: border-box;
+}
+.news-t{
+	height: 19px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.news-t div{
+	height: 2px;
+	width: 28px;
+	background-color: #F10215;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.news-t a{
+	float: left;
+	height: 17px;
+	line-height: 17px;
+}
+.cuxiao{
+	width: 38px;
+	border-right: 1px solid #ccc;
+}
+.gg{
+	margin-left: 15px;
+}
+.news-t .more{
+	float: right;
+}
+.news-b{
+	padding-top: 10px;
+}
+.news-b li{
+	height: 23px;
+	line-height: 23px;
+}
+/*服务扩展模块*/
+.expand{
+	height: 209px;
+	background-color: #fff;
+	overflow: hidden;	/*隐藏超出190px的内容*/
+}
+.expand ul{
+	width: 192px;
+}
+.expand li{
+	width: 48px;
+	height: 69px;
+	float: left;
+}
+.expand li a{
+	display: block;
+	padding-top: 5px;
+	text-align: center;
+	color: #d4c9b3;
+}
+.expand li a:hover{
+	color: #F10215;
+}
+.expand li img{
+	height: 40px;
+	width: 40px;
+}
